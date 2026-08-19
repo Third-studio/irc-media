@@ -1,0 +1,44 @@
+name: Publication Instagram
+
+# Tourne dans le cloud : ni le Mac ni le téléphone n'ont besoin d'être allumés.
+on:
+  schedule:
+    - cron: "15 16 * * *"      # 12 h 15 heure Martinique (UTC-4)
+  workflow_dispatch:            # bouton "Run workflow" pour publier à la demande
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write           # pour réécrire queue.json après publication
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Reconstituer la configuration
+        run: |
+          cat > .env <<CONF
+          IG_APP_ID=${{ secrets.IG_APP_ID }}
+          IG_APP_SECRET=${{ secrets.IG_APP_SECRET }}
+          IG_LONG_TOKEN=${{ secrets.IG_LONG_TOKEN }}
+          IG_USER_ID=${{ secrets.IG_USER_ID }}
+          MEDIA_PUBLIC_BASE_URL=https://raw.githubusercontent.com/${{ github.repository }}/main
+          GRAPH_VERSION=v23.0
+          CONF
+
+      - name: Publier le prochain post approuvé
+        run: node publish-next.mjs
+
+      - name: Enregistrer l'avancement de la file
+        run: |
+          rm -f .env
+          if [ -n "$(git status --porcelain queue.json publication.log)" ]; then
+            git config user.name  "IRC Publication"
+            git config user.email "contact@ircsolution.fr"
+            git add queue.json publication.log
+            git commit -m "Publication du jour"
+            git push
+          fi

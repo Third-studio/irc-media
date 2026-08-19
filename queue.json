@@ -1,0 +1,165 @@
+{
+  "_doc": "File d'attente de publication. Un post par jour, dans l'ordre. Seuls les posts approuvés partent — approved:false = ignoré, la file passe au suivant.",
+  "posts": [
+    {
+      "jour": 1,
+      "fichier": "carrousel-01",
+      "type": "carrousel",
+      "approved": true,
+      "publie": "2026-08-18T21:07:03Z",
+      "permalink": "https://www.instagram.com/p/DcMimrJoKew/"
+    },
+    {
+      "jour": 2,
+      "fichier": "post-10-standard--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": "2026-08-19T22:42:00Z",
+      "permalink": "https://www.instagram.com/p/DcPSOzsoN09/"
+    },
+    {
+      "jour": 3,
+      "fichier": "post-11-garage--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : un garagiste répare un moteur pendant qu'un rendez-vous se prend automatiquement au comptoir. IRC Solution, Martinique.",
+      "caption": "Vous êtes sous un capot, les mains prises. Le téléphone sonne.\n\nAvant : il sonnait dans le vide, et le client appelait le garage suivant. C'est la perte la plus discrète d'un atelier — elle n'apparaît nulle part dans la comptabilité, parce qu'un client qui n'a pas réussi à vous joindre ne laisse aucune trace.\n\nMaintenant : quelqu'un décroche, comprend ce qu'il veut, regarde votre planning et lui donne une heure. Vous n'avez rien lâché. Lui a son rendez-vous.\n\nC'est exactement ce qu'on a installé chez notre premier client, un garage en Martinique. On peut le tester chez vous gratuitement : on appelle votre atelier trois fois et on vous envoie ce qu'un client a réellement vécu.\n\n📞 0696 66 42 84 · contact@ircsolution.fr\n\n#garagemartinique #mecanique #carrosserie #entretienauto #martinique #972 #entreprisemartinique #pmemartinique #artisanmartinique #intelligenceartificielle #iapme #secretariattelephonique #priserendezvous #automatisation #antilles #madinina"
+    },
+    {
+      "jour": 4,
+      "fichier": "j04-agent-ia--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : un cahier papier se transforme en écran unique. IRC Solution explique ce qu'est un agent IA, sans jargon.",
+      "caption": "« Agent IA » : qu'est-ce que ça veut dire concrètement pour une entreprise ?\n\nImaginez quelqu’un que vous auriez formé à votre métier. Il connaît vos tarifs, vos horaires, vos clients réguliers. Quand le téléphone sonne, il décroche, il écoute, il regarde dans votre agenda, il répond.\n\nLa seule différence : il ne dort pas, ne déjeune pas, et ne part pas en congés.\n\nCe n’est ni un robot, ni un répondeur, ni une intelligence mystérieuse. C’est un logiciel qui fait une chose précise, bien.\n\nUne question sur votre cas ? Écrivez-nous, on répond en clair.\n📞 0696 66 42 84\n\n#intelligenceartificielle #iapme #automatisation #transformationnumerique #secretariattelephonique #standardtelephonique #priserendezvous #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 5,
+      "fichier": "j05-pourquoi-ici--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : trois collègues autour d'un ordinateur portable. Les trois fondateurs martiniquais d'IRC Solution.",
+      "caption": "Pourquoi monter une entreprise d'intelligence artificielle en Martinique plutôt qu'à Paris ?\n\nParce que le terrain est ici. Les entreprises d’ici ont exactement les mêmes problèmes qu’ailleurs — un téléphone qui sonne au mauvais moment, quatre outils qui ne se parlent pas — mais personne ne vient les voir.\n\nUne agence parisienne ne se déplacera jamais dans un atelier du Lamentin un mardi matin. Nous, si. Et c’est en regardant comment le travail se fait vraiment qu’on construit des choses qui servent.\n\nOn est trois. On vient chez vous, on écoute, et ensuite seulement on propose.\n📞 0696 66 42 84\n\n#intelligenceartificielle #iapme #automatisation #transformationnumerique #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 6,
+      "fichier": "post-07-pas-les-grosses--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Texte : l'IA n'est pas réservée aux grosses boîtes. Notre premier client a quatre salariés.",
+      "caption": "L'intelligence artificielle est-elle réservée aux grandes entreprises ?\n\nC’est exactement l’inverse. Une grande entreprise a du personnel pour absorber les appels, les relances, la saisie. Une TPE de quatre personnes, non — chaque heure passée au téléphone est une heure qui ne produit pas.\n\nC’est là que ça change le plus de choses. Et c’est là qu’on travaille.\n\nVous êtes deux, cinq, dix ? C’est la bonne taille. Parlons-en.\n📞 0696 66 42 84\n\n#intelligenceartificielle #iapme #automatisation #transformationnumerique #logicieldegestion #gestionentreprise #saas #devis #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 7,
+      "fichier": "post-03-appel-manque--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Texte : 11 h 40, le troisième appel de la matinée sonne dans le vide. Ce client-là ne rappellera pas.",
+      "caption": "Combien vous coûte un appel manqué, vraiment ?\n\nFaites le calcul avec vos propres chiffres : combien d’appels par jour partent dans le vide pendant que vous êtes sous un capot, sur un chantier ou avec un client ? Multipliez par votre panier moyen. Puis par 250 jours.\n\nLe montant surprend toujours. Et il ne se voit nulle part dans la comptabilité, parce qu’un client perdu ne laisse aucune trace.\n\nOn peut le mesurer chez vous, gratuitement : on appelle votre standard trois fois et on vous envoie ce qu’un client a réellement vécu.\n📞 0696 66 42 84\n\n#secretariattelephonique #standardtelephonique #priserendezvous #intelligenceartificielle #iapme #automatisation #transformationnumerique #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 9,
+      "fichier": "j09-dentistes--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : une assistante en blouse à l'accueil d'un cabinet dentaire, téléphone qui sonne.",
+      "caption": "Cabinets dentaires : combien de patients n'arrivent pas à vous joindre chaque semaine ?\n\nEntre deux soins, personne ne peut décrocher. C’est normal. Le problème n’est pas votre organisation, c’est qu’un téléphone ne se dédouble pas.\n\nL’assistante qu’on installe prend l’appel, comprend s’il s’agit d’une urgence ou d’un contrôle, regarde vos créneaux et pose le rendez-vous. Vous retrouvez votre planning rempli sans avoir décroché une fois.\n\nOn teste gratuitement chez vous : on appelle votre cabinet trois fois et on vous envoie ce qu’un patient a vécu.\n📞 0696 66 42 84\n\n#dentiste #cabinetdentaire #kine #santelibérale #priserendezvous #secretariattelephonique #standardtelephonique #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 10,
+      "fichier": "j10-cout-appel--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : un dirigeant débordé entouré de papiers qui volent.",
+      "caption": "Faisons le calcul : un appel perdu par jour, sur une année, ça représente combien ?\n\nLe montant surprend toujours. Et il n’apparaît nulle part dans votre comptabilité, parce qu’un client qui n’a pas réussi à vous joindre ne laisse aucune trace. Pas de devis refusé, pas de facture annulée. Rien.\n\nC’est la seule perte d’une entreprise qui ne se voit jamais dans les chiffres.\n\nOn peut la mesurer chez vous, gratuitement : trois appels à votre standard, à trois moments différents, et un rapport d’une page.\n📞 0696 66 42 84\n\n#secretariattelephonique #standardtelephonique #priserendezvous #intelligenceartificielle #iapme #automatisation #transformationnumerique #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 12,
+      "fichier": "j12-artisans--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : un artisan sur un chantier, une notification de rendez-vous à côté de lui.",
+      "caption": "Artisans : comment répondre au téléphone quand on a les mains dans le chantier ?\n\nSoit vous arrêtez tout, soit vous perdez le client. Il n’y a pas de troisième option — sauf si quelqu’un répond à votre place.\n\nL’assistante qu’on installe prend l’appel, pose les bonnes questions, distingue une urgence d’un devis, et remplit votre agenda pour la semaine.\n\nVous rappelez le soir, si vous voulez. Mais le client, lui, a déjà sa réponse.\n📞 0696 66 42 84\n\n#artisanmartinique #btp #plombier #electricien #climatisation #secretariattelephonique #standardtelephonique #priserendezvous #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 13,
+      "fichier": "j13-donnees--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : une femme consulte un tableau de bord simple sur un écran.",
+      "caption": "Où vont les données de vos clients quand vous installez une IA ?\n\nLes conversations et les coordonnées de vos clients restent les vôtres. Elles ne sont ni revendues, ni utilisées pour entraîner quoi que ce soit. Vous pouvez demander leur suppression à tout moment, et on vous montre physiquement où elles sont stockées.\n\nSi un prestataire ne peut pas répondre à cette question en trois phrases, c’est mauvais signe.\n\nD’autres questions ? Posez-les en commentaire, on répond à tout.\n📞 0696 66 42 84\n\n#intelligenceartificielle #iapme #automatisation #transformationnumerique #logicieldegestion #gestionentreprise #saas #devis #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 15,
+      "fichier": "j15-restaurants--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : une restauratrice dresse une assiette pendant qu'une réservation se confirme.",
+      "caption": "Restaurants : combien de réservations perdez-vous entre 11 h et 12 h ?\n\nC’est exactement le moment où personne ne peut décrocher. Le client appelle le restaurant suivant — et il y a de fortes chances qu’il y retourne la prochaine fois.\n\nL’assistante prend la réservation, note le nombre de couverts, les allergies, et l’inscrit dans votre plan de salle. Vous, vous ne quittez pas le service.\n\nOn teste chez vous gratuitement.\n📞 0696 66 42 84\n\n#restaurantmartinique #restauration #reservation #traiteur #secretariattelephonique #standardtelephonique #priserendezvous #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 17,
+      "fichier": "j17-telesecretariat--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : comparaison entre un vieux répondeur et une conversation aboutie.",
+      "caption": "Télésecrétariat, répondeur ou assistant IA : lequel prend vraiment vos rendez-vous ?\n\nAlors il note, il transmet, et vous rappelez. Trois étapes, souvent deux jours — et un client qui a déjà trouvé ailleurs.\n\nEt il travaille aux heures de bureau. Or vos clients appellent à 12 h 30, à 18 h 45, le samedi matin.\n\nLa différence n’est pas le prix. C’est qu’une assistante branchée sur votre logiciel ne prend pas un message : elle prend le rendez-vous.\n📞 0696 66 42 84\n\n#secretariattelephonique #standardtelephonique #priserendezvous #intelligenceartificielle #iapme #automatisation #transformationnumerique #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 20,
+      "fichier": "j20-immobilier--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : une assistante au standard, agenda qui se remplit.",
+      "caption": "Immobilier et location saisonnière : comment trier vingt appels pour un seul dossier sérieux ?\n\nVingt demandes, dont une poignée de dossiers sérieux. Le tri prend plus de temps que les visites elles-mêmes — et pendant ce temps, les vrais clients attendent.\n\nL’assistante pose les questions de qualification à votre place, écarte ce qui ne colle pas, et ne vous transmet que ce qui mérite votre temps. Les visites se calent directement dans votre agenda.\n\nOn vous montre ce que ça donne sur vos annonces actuelles.\n📞 0696 66 42 84\n\n#immobiliermartinique #locationsaisonniere #agenceimmobiliere #secretariattelephonique #standardtelephonique #priserendezvous #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 22,
+      "fichier": "j22-jamais--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : une poignée de main dans un atelier.",
+      "caption": "Qu'est-ce que l'intelligence artificielle ne remplacera jamais dans votre métier ?\n\nElle ne saura jamais diagnostiquer un bruit de moteur, rassurer un client inquiet, ni décider d’un geste commercial. C’est vous, votre métier, et vos années de pratique.\n\nCe qu’elle fait : elle absorbe ce qui vous empêche de faire ce métier. Le téléphone qui coupe une réparation, le devis recopié trois fois, la relance oubliée.\n\nL’objectif n’est pas de faire moins d’humain. C’est d’en faire plus, là où ça compte.\n📞 0696 66 42 84\n\n#intelligenceartificielle #iapme #automatisation #transformationnumerique #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 23,
+      "fichier": "j23-erreur--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : un garagiste au travail dans son atelier.",
+      "caption": "Notre première version chez le garage ne servait à personne. Voilà pourquoi.\n\nTrop d’écrans, trop d’options, trop de choses à apprendre. Le patron a été poli, mais il ne l’ouvrait pas.\n\nOn a tout repris. Une journée à les regarder travailler, sans rien proposer. Puis une version qui fait moins de choses, mais celles-là vraiment.\n\nC’est pour ça qu’on commence toujours par venir chez vous avant de parler d’outil.\n📞 0696 66 42 84\n\n#garagemartinique #mecanique #carrosserie #entretienauto #intelligenceartificielle #iapme #automatisation #transformationnumerique #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 27,
+      "fichier": "j27-concurrent--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : une femme répond au téléphone tard le soir, horloge à côté d'elle.",
+      "caption": "Le vrai risque de l'IA pour votre entreprise n'est pas celui que vous croyez.\n\n55 % des TPE et PME françaises utilisent l’IA. Mais 17 % seulement s’en servent vraiment (Bpifrance Le Lab, janvier 2026). L’écart entre les deux, c’est là que tout se joue.\n\nCelui qui répond à 19 h quand vous êtes fermé ne travaille pas plus que vous. Il a juste quelqu’un qui décroche.\n\nAudit gratuit, 30 minutes, on se déplace.\n📞 0696 66 42 84\n\n#intelligenceartificielle #iapme #automatisation #transformationnumerique #secretariattelephonique #standardtelephonique #priserendezvous #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    },
+    {
+      "jour": 29,
+      "fichier": "j29-prix--D.jpg",
+      "type": "photo",
+      "approved": true,
+      "publie": null,
+      "alt": "Illustration : un cahier papier devient un écran unique.",
+      "caption": "Combien coûte une IA sur-mesure pour une PME ? La réponse en clair.\n\nAlors : le secrétariat IA se loue au mois, prix affiché, sans engagement long. Le logiciel métier se chiffre après l’audit, parce qu’il dépend de ce qu’on remplace chez vous — et parfois la réponse honnête est qu’il n’y a rien à remplacer.\n\nDans tous les cas : 14 jours d’essai, arrêt sur simple demande, et on désinstalle si ça ne sert pas.\n\nUne PME qui ne voit pas de prix suppose que c’est hors budget. On préfère le dire.\n📞 0696 66 42 84\n\n#intelligenceartificielle #iapme #automatisation #transformationnumerique #logicieldegestion #gestionentreprise #saas #devis #martinique #972 #entreprisemartinique #pmemartinique #tpemartinique #antilles #madinina"
+    }
+  ]
+}
