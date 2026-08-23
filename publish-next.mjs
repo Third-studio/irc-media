@@ -29,11 +29,29 @@ const env = loadEnv();
 const T = env.IG_LONG_TOKEN, U = env.IG_USER_ID;
 const url = `${env.MEDIA_PUBLIC_BASE_URL.replace(/\/$/, "")}/${next.fichier}`;
 
+const estReel = next.type === "reel" || /\.mp4$/i.test(next.fichier);
+
 try {
-  const params = { image_url: url, caption: next.caption, access_token: T };
+  const params = estReel
+    ? { media_type: "REELS", video_url: url, caption: next.caption, share_to_feed: "true", access_token: T }
+    : { image_url: url, caption: next.caption, access_token: T };
   if (next.alt) params.alt_text = next.alt;
   const c = await ig(`${U}/media`, params, "POST");
-  await sleep(3000);
+
+  if (estReel) {
+    // Meta encode la video : il faut attendre FINISHED avant de publier.
+    let etat = "";
+    for (let i = 0; i < 40; i++) {
+      await sleep(6000);
+      const s = await ig(c.id, { fields: "status_code,status", access_token: T });
+      etat = s.status_code;
+      if (etat === "FINISHED") break;
+      if (etat === "ERROR") throw new Error(`Encodage refuse par Meta : ${s.status || ""}`);
+    }
+    if (etat !== "FINISHED") throw new Error(`Encodage toujours en cours apres 4 min (${etat})`);
+  } else {
+    await sleep(3000);
+  }
   const r = await ig(`${U}/media_publish`, { creation_id: c.id, access_token: T }, "POST");
   const p = await ig(r.id, { fields: "permalink", access_token: T }).catch(() => ({}));
   next.publie = new Date().toISOString();
