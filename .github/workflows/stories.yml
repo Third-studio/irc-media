@@ -1,16 +1,16 @@
-name: Publication Instagram
+name: Stories Instagram
 
-# Tourne dans le cloud : ni le Mac ni le téléphone n'ont besoin d'être allumés.
+# 2 stories par jour, en fin de journee (pic de consultation des stories).
 on:
   schedule:
-    - cron: "45 15 * * *"      # vise 12 h 15 Martinique (GitHub decale de 15-30 min)
-  workflow_dispatch:            # bouton "Run workflow" pour publier à la demande
+    - cron: "30 21 * * *"      # vise 17 h 30 Martinique (GitHub decale de 15-30 min)
+  workflow_dispatch:
 
 jobs:
-  publier:
+  stories:
     runs-on: ubuntu-latest
     permissions:
-      contents: write           # pour réécrire queue.json après publication
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
@@ -29,16 +29,16 @@ jobs:
           GRAPH_VERSION=v23.0
           CONF
 
-      - name: Publier le prochain post approuvé
-        run: node publish-next.mjs
+      - name: Publier les 2 prochaines stories
+        run: node publish-next-stories.mjs 2
 
       - name: Enregistrer l'avancement de la file
         run: |
           rm -f .env
-          if [ -n "$(git status --porcelain queue.json publication.log)" ]; then
+          if [ -n "$(git status --porcelain queue-stories.json)" ]; then
             git config user.name  "IRC Publication"
             git config user.email "contact@ircsolution.fr"
-            git add queue.json publication.log
-            git commit -m "Publication du jour"
+            git add queue-stories.json
+            git commit -m "Stories du jour"
             git push
           fi

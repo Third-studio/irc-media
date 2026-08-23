@@ -1,0 +1,55 @@
+{
+  "_doc": "File des stories. 2 par jour. approved:false = ignorée.",
+  "stories": [
+    {
+      "fichier": "st-01-chiffre.jpg",
+      "approved": true,
+      "publie": null
+    },
+    {
+      "fichier": "st-02-sondage.jpg",
+      "approved": true,
+      "publie": null
+    },
+    {
+      "fichier": "st-03-objection.jpg",
+      "approved": true,
+      "publie": null
+    },
+    {
+      "fichier": "st-04-difference.jpg",
+      "approved": true,
+      "publie": null
+    },
+    {
+      "fichier": "st-05-question.jpg",
+      "approved": true,
+      "publie": null
+    },
+    {
+      "fichier": "st-06-demo.jpg",
+      "approved": true,
+      "publie": null
+    },
+    {
+      "fichier": "st-07-test.jpg",
+      "approved": true,
+      "publie": null
+    },
+    {
+      "fichier": "st-08-metiers.jpg",
+      "approved": true,
+      "publie": null
+    },
+    {
+      "fichier": "st-09-donnees.jpg",
+      "approved": true,
+      "publie": null
+    },
+    {
+      "fichier": "st-10-local.jpg",
+      "approved": true,
+      "publie": null
+    }
+  ]
+}
