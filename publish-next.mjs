@@ -36,10 +36,34 @@ const CDN = RAW.replace(
 );
 const estVideo = /\.mp4$/i.test(next.fichier);
 const url = `${estVideo ? CDN : RAW}/${next.fichier}`;
+const estCarrousel = next.type === "carrousel" && Array.isArray(next.fichiers);
 
 const estReel = next.type === "reel" || /\.mp4$/i.test(next.fichier);
 
 try {
+  if (estCarrousel) {
+    if (next.fichiers.length < 2 || next.fichiers.length > 10) {
+      throw new Error(`Un carrousel demande entre 2 et 10 images (recu : ${next.fichiers.length})`);
+    }
+    const enfants = [];
+    for (const f of next.fichiers) {
+      const e = await ig(`${U}/media`, { image_url: `${RAW}/${f}`, is_carousel_item: "true", access_token: T }, "POST");
+      enfants.push(e.id);
+      await sleep(1200);
+    }
+    const parent = await ig(`${U}/media`, {
+      media_type: "CAROUSEL", children: enfants.join(","), caption: next.caption, access_token: T,
+    }, "POST");
+    await sleep(3000);
+    const r = await ig(`${U}/media_publish`, { creation_id: parent.id, access_token: T }, "POST");
+    const p = await ig(r.id, { fields: "permalink", access_token: T }).catch(() => ({}));
+    next.publie = new Date().toISOString();
+    next.permalink = p.permalink || null;
+    writeFileSync(QP, JSON.stringify(q, null, 2));
+    say(`Publie -> ${p.permalink || r.id}`);
+    process.exit(0);
+  }
+
   const params = estReel
     ? { media_type: "REELS", video_url: url, caption: next.caption, share_to_feed: "true", access_token: T }
     : { image_url: url, caption: next.caption, access_token: T };
