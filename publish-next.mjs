@@ -27,7 +27,15 @@ if (dry) { console.log("\n" + next.caption.slice(0, 220) + "…\n"); process.exi
 
 const env = loadEnv();
 const T = env.IG_LONG_TOKEN, U = env.IG_USER_ID;
-const url = `${env.MEDIA_PUBLIC_BASE_URL.replace(/\/$/, "")}/${next.fichier}`;
+const RAW = env.MEDIA_PUBLIC_BASE_URL.replace(/\/$/, "");
+// GitHub sert les .mp4 en application/octet-stream : Meta refuse.
+// jsDelivr sert le meme depot en video/mp4.
+const CDN = RAW.replace(
+  /^https:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/(.+)$/,
+  "https://cdn.jsdelivr.net/gh/$1/$2@$3"
+);
+const estVideo = /\.mp4$/i.test(next.fichier);
+const url = `${estVideo ? CDN : RAW}/${next.fichier}`;
 
 const estReel = next.type === "reel" || /\.mp4$/i.test(next.fichier);
 
@@ -46,7 +54,7 @@ try {
       const s = await ig(c.id, { fields: "status_code,status", access_token: T });
       etat = s.status_code;
       if (etat === "FINISHED") break;
-      if (etat === "ERROR") throw new Error(`Encodage refuse par Meta : ${s.status || ""}`);
+      if (etat === "ERROR") throw new Error(`Encodage refuse par Meta : ${JSON.stringify(s)} (url ${url})`);
     }
     if (etat !== "FINISHED") throw new Error(`Encodage toujours en cours apres 4 min (${etat})`);
   } else {
