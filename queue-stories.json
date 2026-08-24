@@ -9,9 +9,10 @@
     },
     {
       "fichier": "st-02-sondage.jpg",
-      "approved": true,
+      "approved": false,
       "publie": "2026-08-23T21:06:34Z",
-      "id": "18366170692214370"
+      "id": "18366170692214370",
+      "manuel": "Publication manuelle obligatoire — sticker SONDAGE a poser dans l app. L API Instagram ne sait pas ajouter de sticker interactif."
     },
     {
       "fichier": "st-03-objection.jpg",
@@ -27,15 +28,14 @@
     },
     {
       "fichier": "st-05-question.jpg",
-      "approved": true,
-      "publie": "2026-08-24T21:49:51Z",
-      "id": "18072702620444395"
+      "approved": false,
+      "publie": null,
+      "manuel": "Publication manuelle obligatoire — sticker QUESTION a poser dans l app. L API Instagram ne sait pas ajouter de sticker interactif."
     },
     {
       "fichier": "st-06-demo.jpg",
       "approved": true,
-      "publie": "2026-08-24T21:50:02Z",
-      "id": "17861394525675314"
+      "publie": null
     },
     {
       "fichier": "st-07-test.jpg",
