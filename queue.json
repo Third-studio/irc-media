@@ -93,6 +93,23 @@
       "jour": 9
     },
     {
+      "fichier": "carrousel-08-confidentialite",
+      "type": "carrousel",
+      "fichiers": [
+        "carrousel-08-confidentialite--D-01.jpg",
+        "carrousel-08-confidentialite--D-02.jpg",
+        "carrousel-08-confidentialite--D-03.jpg",
+        "carrousel-08-confidentialite--D-04.jpg",
+        "carrousel-08-confidentialite--D-05.jpg",
+        "carrousel-08-confidentialite--D-06.jpg",
+        "carrousel-08-confidentialite--D-07.jpg"
+      ],
+      "approved": true,
+      "publie": null,
+      "caption": "« Reformule-moi ce devis. » « Résume-moi ce compte rendu. » « Fais-moi un mail à partir de cette liste de clients. »\n\nCes réflexes-là font gagner dix minutes. Et posent une question que peu d'entreprises se sont posée : où part ce qu'on colle ?\n\nLa CNIL est explicite. Sa recommandation, en toutes lettres : ne jamais partager d'informations confidentielles telles que des données personnelles, des données de l'entreprise ou de l'administration.\n\nLa raison n'est pas théorique. Lorsque les données sont susceptibles d'être réutilisées par le fournisseur — conformément à ses conditions générales — la CNIL demande à l'organisme utilisateur de mener une analyse au cas par cas. Traduction : c'est écrit dans les CGU, et c'est à vous de les lire.\n\nAttention, ce n'est pas une interdiction d'utiliser l'IA. C'est une question de périmètre. Rédiger un post, traduire une page publique, reformuler un texte que vous auriez publié de toute façon : aucun problème. Un fichier client, un contrat, un dossier salarié : ce n'est plus la même chose.\n\nLes parades listées par la CNIL sont concrètes. Désactiver la réutilisation des données d'usage quand le fournisseur propose l'option. N'y introduire que des informations librement accessibles. Ou déployer le système sur sa propre infrastructure, ce qui supprime le risque à la racine.\n\nLe point aveugle, c'est que vos salariés utilisent déjà l'IA — souvent sans consigne écrite, et sans mauvaise intention. Si personne n'a posé de règle dans l'entreprise, alors il n'y en a pas.\n\nLa bonne question à poser en réunion cette semaine : qui, chez nous, a le droit de taper quoi, et dans quel outil ?\n\nSource : CNIL, questions-réponses sur l'utilisation d'un système d'IA générative.\n\n—\nIRC Solution — Martinique\ncontact@ircsolution.fr · 0696 66 42 84\n\n#confidentialite #rgpd #cnil #intelligenceartificielle #ia #martinique #madinina #972 #antilles #entrepreneurmartinique #tpe #pme #donneespersonnelles #fortdefrance #entreprendreauxantilles",
+      "jour": 10
+    },
+    {
       "fichier": "carrousel-06-essayer-vs-utiliser",
       "type": "carrousel",
       "fichiers": [
@@ -107,10 +124,10 @@
       "approved": true,
       "publie": null,
       "caption": "55 % des TPE et PME françaises utilisent l'IA générative. Elles étaient 31 % fin 2024, et 15 % en 2023. En deux ans, l'usage a plus que triplé.\n\nMais un second chiffre du même baromètre mérite qu'on s'y arrête : seulement 17 % s'en servent régulièrement. 37 % déclarent un usage occasionnel. Autrement dit, la grande majorité a ouvert la porte sans entrer.\n\nCe qu'elles en font est tout aussi révélateur. 72 % génèrent des contenus écrits, 67 % font de la recherche et de l'analyse, puis viennent la traduction (34 %), les visuels (29 %) et la relecture (22 %).\n\nRegardez cette liste : rien n'y touche le cœur du métier. Ni le téléphone qui sonne pendant que vous êtes sous un capot, ni le planning, ni les devis, ni les relances. L'IA reste à côté du travail, pas dedans.\n\nC'est là toute la différence entre un outil qu'on ouvre et un outil qui travaille. Le premier demande qu'on y pense, qu'on rédige une consigne, qu'on relise. Le second tourne quand vous avez les mains prises — et c'est précisément quand vous avez les mains prises que vous perdez des clients.\n\nDernier chiffre, et il dit où va le vent : 32 % des dirigeants n'ont aucune intention d'y recourir à court terme. Ils étaient 51 % un an plus tôt. Dix-neuf points de refus envolés en douze mois.\n\nLa question n'est plus « est-ce que ça va nous concerner ». Elle est « pour quoi faire, concrètement, chez nous ».\n\nSource : Bpifrance Le Lab, 82e baromètre semestriel de conjoncture des TPE-PME — près de 40 000 entreprises interrogées, 4 722 réponses analysées, novembre-décembre 2025.\n—\nIRC Solution — Martinique\ncontact@ircsolution.fr · 0696 66 42 84\n\n#intelligenceartificielle #ia #martinique #madinina #972 #antilles #entrepreneurmartinique #tpe #pme #transformationnumerique #fortdefrance #entreprendreauxantilles #artisan",
-      "jour": 10
+      "jour": 11
     },
     {
-      "jour": 11,
+      "jour": 12,
       "fichier": "reel-sans-jargon-v2.mp4",
       "type": "reel",
       "approved": true,
@@ -132,7 +149,7 @@
       "approved": true,
       "publie": null,
       "caption": "Si votre standard enregistre les appels, vous devez le dire. Et pas dans les conditions générales : au moment de l'appel.\n\nLa CNIL est claire sur le principe — chaque interlocuteur doit être informé au moment de son appel. Concrètement, un message diffusé en début de ligne suffit.\n\nCe message doit couvrir quatre points, et pas un de moins : pourquoi vous enregistrez, qui aura accès aux enregistrements, le droit de s'y opposer, et le droit d'y accéder.\n\nL'erreur la plus courante consiste à s'en remettre à une ligne dans les CGV ou sur le site. Elle peut compléter le message vocal, elle ne peut pas s'y substituer : la personne doit savoir avant de parler, pas après avoir signé.\n\nEt si c'est un agent IA qui décroche, une seconde obligation s'ajoute depuis le 2 août 2026. Le règlement européen sur l'IA impose d'informer la personne qu'elle interagit avec une intelligence artificielle. Deux annonces, donc, dans la même phrase d'accueil.\n\nOn présente souvent ça comme une contrainte. C'est surtout une protection. L'annonce coûte cinq secondes. Un client qui découvre après coup qu'il a été enregistré sans le savoir, ça coûte le client — et parfois sa réputation en prime, dans un territoire où tout le monde se connaît.\n\nLe réflexe utile cette semaine : appelez votre propre standard. Écoutez ce qu'il annonce. Et demandez qui, dans l'entreprise, a accès aux enregistrements. Si personne ne sait répondre, vous avez déjà votre réponse.\n\nSources : CNIL, enregistrement des conversations téléphoniques. Commission européenne, règlement sur l'IA, article 50.\n—\nIRC Solution — Martinique\ncontact@ircsolution.fr · 0696 66 42 84\n\n#cnil #rgpd #intelligenceartificielle #martinique #madinina #972 #antilles #entrepreneurmartinique #tpe #pme #conformite #standardtelephonique #fortdefrance #entreprendreauxantilles",
-      "jour": 12
+      "jour": 13
     },
     {
       "fichier": "reel-facture-electronique-v3.mp4",
@@ -140,7 +157,7 @@
       "approved": true,
       "publie": null,
       "caption": "Le 1er septembre, la facturation électronique devient obligatoire — et pas seulement pour les grosses entreprises.\n\nTrois choses à retenir, parce qu'on lit beaucoup d'approximations en ce moment.\n\nUn : au 1er septembre 2026, l'obligation porte sur la RÉCEPTION. Vous devez pouvoir recevoir les factures de vos fournisseurs au format électronique. L'obligation d'émettre les vôtres ne s'applique aux TPE et PME qu'au 1er septembre 2027.\n\nDeux : recevoir une facture électronique passe obligatoirement par une plateforme agréée — article 289 bis du Code général des impôts. Sans plateforme désignée, la facture ne peut matériellement pas vous parvenir.\n\nTrois : pas de sanction du jour au lendemain. L'administration prévoit une mise en demeure puis trois mois pour se conformer, et écarte les entreprises engagées dans une démarche sérieuse. Ce qui compte, c'est de pouvoir montrer que c'est lancé.\n\nCette semaine, un appel suffit : expert-comptable, éditeur de logiciel, ou banque. Assistance officielle au 0 806 807 807.\n\nSource : guide pratique de la facturation électronique, impots.gouv.fr, 2026.\n—\nIRC Solution — Martinique\ncontact@ircsolution.fr · 0696 66 42 84\n\n#facturationelectronique #martinique #madinina #972 #antilles #entrepreneurmartinique #artisanmartinique #tpe #pme #comptabilite #expertcomptable #fortdefrance #entreprendreauxantilles",
-      "jour": 13
+      "jour": 14
     },
     {
       "fichier": "carrousel-03-ia-doit-se-dire",
@@ -157,7 +174,7 @@
       "approved": true,
       "publie": null,
       "caption": "Depuis le 2 août 2026, les règles de transparence du règlement européen sur l'intelligence artificielle sont entrées en application. Trois semaines déjà, et presque personne n'en parle.\n\nLa règle tient en une phrase : quand une personne interagit directement avec un système d'IA — un chatbot, un agent vocal, un avatar — elle doit être informée qu'elle ne parle pas à un humain.\n\nUne nuance existe : l'obligation tombe si c'est évident pour une personne raisonnablement informée. Au téléphone, ça ne l'est jamais. Une voix de synthèse convaincante, c'est précisément le cas que le texte vise.\n\nQui porte la responsabilité ? D'abord le fournisseur du système, celui qui le conçoit. Mais l'entreprise qui le déploie a ses propres obligations, notamment sur les contenus générés. Autrement dit : ce n'est pas parce que vous avez acheté la solution que le sujet ne vous concerne pas.\n\nEt non, il n'y a pas d'exemption pour les petites structures. La taille de l'entreprise est prise en compte pour calculer le montant des amendes, pas pour vous dispenser de l'obligation.\n\nCe qu'on en retient, très concrètement : si vous avez installé un agent qui répond à vos clients, ou si vous vous apprêtez à le faire, posez la question à votre prestataire. « Est-ce que votre agent annonce qu'il est une IA ? » Une réponse claire existe. Si elle hésite, le risque retombe sur vous.\n\nNous, on le dit à chaque fois. Ce n'est pas un détail de conformité, c'est ce qui fait qu'un client se sent respecté plutôt que berné.\n\nSource : Commission européenne, règlement sur l'IA, article 50 et lignes directrices sur les obligations de transparence.\n\n—\nIRC Solution — Martinique\ncontact@ircsolution.fr · 0696 66 42 84\n\n#intelligenceartificielle #aiact #martinique #madinina #972 #antilles #entrepreneurmartinique #tpe #pme #conformite #rgpd #fortdefrance #entreprendreauxantilles #chatbot",
-      "jour": 14
+      "jour": 15
     },
     {
       "fichier": "carrousel-04-cyber-tpe",
@@ -174,7 +191,7 @@
       "approved": false,
       "publie": null,
       "caption": "Un chiffre du dernier baromètre de la maturité cyber des TPE-PME mérite qu'on s'y arrête.\n\nEn un an, la part d'entreprises qui s'estiment bien ou très bien protégées est passée de 39 % à 58 %. Dix-neuf points gagnés en douze mois.\n\nDans le même temps, le budget consacré à la cybersécurité n'a pas suivi : trois TPE-PME sur quatre y consacrent toujours moins de 2 000 € par an.\n\nAutrement dit, le sentiment de sécurité progresse beaucoup plus vite que les moyens qui devraient le justifier. C'est ça, le point de vigilance — pas le risque en lui-même, mais le fait de cesser de se poser la question.\n\nDeux précisions honnêtes, parce que les chiffres se font souvent dire n'importe quoi. D'abord, 16 % des entreprises déclarent avoir subi au moins un incident sur douze mois : une sur six, ce n'est pas rien, mais ça ne prouve pas à soi seul que les 58 % ont tort. Ensuite, sur les freins invoqués, aucun ne domine vraiment — connaissances 63 %, budget 61 %, temps 59 %. Trois obstacles qui se valent et qui s'additionnent, pas un coupable unique.\n\nLe côté encourageant : le socle technique est déjà largement en place. Antivirus, sauvegardes et pare-feu équipent la majorité des entreprises interrogées. L'outil manque rarement.\n\nEt ce qu'on ignore souvent : il existe un service public gratuit. cybermalveillance.gouv.fr accompagne les victimes sans rien vendre — plus de 500 000 l'an dernier, en hausse de 20 %. Le connaître avant d'en avoir besoin fait gagner un temps considérable le jour où ça arrive.\n\nSource : cybermalveillance.gouv.fr, 2e baromètre de la maturité cyber des TPE-PME, 2025.\n\n—\nIRC Solution — Martinique\ncontact@ircsolution.fr · 0696 66 42 84\n\n#cybersecurite #martinique #madinina #972 #antilles #entrepreneurmartinique #tpe #pme #informatique #fortdefrance #entreprendreauxantilles #artisan",
-      "jour": 15,
+      "jour": 16,
       "note": "Hors niche IRC (IA + logiciel metier). Conserve, republiable si la ligne s elargit."
     },
     {
@@ -192,7 +209,7 @@
       "approved": false,
       "publie": null,
       "caption": "Si un client vous paie à 90 jours, il n'est pas juste lent. Il est hors la loi.\n\nLe délai de paiement entre entreprises ne peut pas dépasser 60 jours nets après l'émission de la facture. Une variante existe — 45 jours fin de mois — si elle a été convenue. Au-delà, on sort du cadre légal.\n\nEt non, un accord entre les deux parties ne rend pas le retard légal. Le plafond s'impose au contrat. « On a toujours fonctionné comme ça » n'est pas une exception prévue par le texte.\n\nCe que beaucoup ignorent, c'est le montant de la sanction : jusqu'à 2 millions d'euros pour une société, 75 000 € pour une personne physique. Et le maximum double en cas de nouveau manquement dans les deux ans.\n\nMais le vrai levier n'est pas l'amende. L'entreprise sanctionnée doit publier la décision à ses frais dans la presse locale, en plus de la publication sur le site de la DGCCRF. Dans un territoire comme le nôtre, où tout le monde se connaît, ça pèse plus lourd qu'un chèque.\n\nCe n'est pas théorique : sur cinq mois de contrôles, la DGCCRF a examiné 248 entreprises, engagé 138 procédures de sanction et prononcé près de 30 millions d'euros d'amendes.\n\nDonc si vous êtes le fournisseur qui attend : les pénalités de retard vous sont dues de plein droit, sans avoir à les réclamer dans le contrat. Relancer n'est pas quémander, c'est appliquer un texte.\n\nSource : DGCCRF, economie.gouv.fr, délais de paiement — les règles à connaître.\n\n—\nIRC Solution — Martinique\ncontact@ircsolution.fr · 0696 66 42 84\n\n#delaisdepaiement #martinique #madinina #972 #antilles #entrepreneurmartinique #artisanmartinique #tpe #pme #tresorerie #facturation #fortdefrance #entreprendreauxantilles",
-      "jour": 16,
+      "jour": 17,
       "note": "Hors niche IRC (IA + logiciel metier). Conserve, republiable si la ligne s elargit."
     },
     {
@@ -201,7 +218,7 @@
       "approved": false,
       "publie": null,
       "caption": "En France, une petite entreprise sur six s'est fait pirater l'an dernier.\n\nEt pourtant, on se sent de mieux en mieux protégé : la part de TPE-PME qui s'estiment bien protégées est passée de 39 % à 58 % en un an. Dix-neuf points.\n\nLe budget, lui, n'a pas bougé — trois sur quatre y consacrent toujours moins de 2 000 € par an. C'est cet écart qui interroge, pas le risque en lui-même : une entreprise qui se croit protégée arrête de vérifier.\n\nCe qui bloque ? Le baromètre ne désigne pas un coupable unique. Connaissances 63 %, budget 61 %, temps 59 % — les trois se valent et s'additionnent.\n\nLe côté encourageant : l'outil manque rarement. Antivirus, sauvegardes et pare-feu équipent déjà la majorité.\n\nEt ce qu'on ignore souvent : un service public gratuit existe. cybermalveillance.gouv.fr accompagne les victimes sans rien vendre — plus de 500 000 l'an dernier, en hausse de 20 %. Le connaître avant d'en avoir besoin fait gagner un temps considérable le jour où ça arrive.\n\nSource : cybermalveillance.gouv.fr, 2e baromètre de la maturité cyber des TPE-PME, 2025.\n\n—\nIRC Solution — Martinique\ncontact@ircsolution.fr · 0696 66 42 84\n\n#cybersecurite #martinique #madinina #972 #antilles #entrepreneurmartinique #tpe #pme #informatique #fortdefrance #entreprendreauxantilles #artisan",
-      "jour": 17,
+      "jour": 18,
       "note": "Hors niche IRC (IA + logiciel metier). Conserve, republiable si la ligne s elargit."
     },
     {
@@ -210,11 +227,11 @@
       "approved": false,
       "publie": null,
       "caption": "Un client qui vous paie à 90 jours n'est pas lent. Il est hors la loi.\n\nLe délai entre entreprises ne peut pas dépasser 60 jours nets après l'émission de la facture — ou 45 jours fin de mois si c'est ce qui a été convenu. Et un accord entre les parties ne rend pas le dépassement légal : le plafond s'impose au contrat.\n\nLa sanction va jusqu'à 2 millions d'euros pour une société, 75 000 € pour une personne physique, et le maximum double en cas de récidive dans les deux ans.\n\nMais le vrai levier n'est pas l'amende. L'entreprise sanctionnée doit publier la décision à ses frais dans la presse locale, en plus du site de la DGCCRF. Chez nous, où tout le monde se connaît, ça pèse plus lourd qu'un chèque.\n\nCe n'est pas théorique : sur cinq mois de contrôles, 248 entreprises examinées, 138 procédures engagées, près de 30 millions d'euros d'amendes.\n\nDonc si vous attendez d'être payé : les pénalités de retard vous sont dues de plein droit, sans avoir à les prévoir au contrat. Relancer n'est pas quémander.\n\nSource : DGCCRF, economie.gouv.fr — délais de paiement, les règles à connaître.\n—\nIRC Solution — Martinique\ncontact@ircsolution.fr · 0696 66 42 84\n\n#delaisdepaiement #martinique #madinina #972 #antilles #entrepreneurmartinique #artisanmartinique #tpe #pme #tresorerie #facturation #fortdefrance #entreprendreauxantilles",
-      "jour": 18,
+      "jour": 19,
       "note": "Hors niche IRC (IA + logiciel metier). Conserve, republiable si la ligne s elargit."
     },
     {
-      "jour": 19,
+      "jour": 20,
       "fichier": "post-03-appel-manque--D.jpg",
       "type": "photo",
       "approved": false,
@@ -224,7 +241,7 @@
       "note": "Ligne editoriale abandonnee : portee 5-11. Conserve pour archive."
     },
     {
-      "jour": 20,
+      "jour": 21,
       "fichier": "j09-dentistes--D.jpg",
       "type": "photo",
       "approved": false,
@@ -234,7 +251,7 @@
       "note": "Ligne editoriale abandonnee : portee 5-11. Conserve pour archive."
     },
     {
-      "jour": 21,
+      "jour": 22,
       "fichier": "j10-cout-appel--D.jpg",
       "type": "photo",
       "approved": false,
@@ -244,7 +261,7 @@
       "note": "Ligne editoriale abandonnee : portee 5-11. Conserve pour archive."
     },
     {
-      "jour": 22,
+      "jour": 23,
       "fichier": "j12-artisans--D.jpg",
       "type": "photo",
       "approved": false,
@@ -254,7 +271,7 @@
       "note": "Ligne editoriale abandonnee : portee 5-11. Conserve pour archive."
     },
     {
-      "jour": 23,
+      "jour": 24,
       "fichier": "j13-donnees--D.jpg",
       "type": "photo",
       "approved": false,
@@ -264,7 +281,7 @@
       "note": "Ligne editoriale abandonnee : portee 5-11. Conserve pour archive."
     },
     {
-      "jour": 24,
+      "jour": 25,
       "fichier": "j15-restaurants--D.jpg",
       "type": "photo",
       "approved": false,
@@ -274,7 +291,7 @@
       "note": "Ligne editoriale abandonnee : portee 5-11. Conserve pour archive."
     },
     {
-      "jour": 25,
+      "jour": 26,
       "fichier": "j17-telesecretariat--D.jpg",
       "type": "photo",
       "approved": false,
@@ -284,7 +301,7 @@
       "note": "Ligne editoriale abandonnee : portee 5-11. Conserve pour archive."
     },
     {
-      "jour": 26,
+      "jour": 27,
       "fichier": "j20-immobilier--D.jpg",
       "type": "photo",
       "approved": false,
@@ -294,7 +311,7 @@
       "note": "Ligne editoriale abandonnee : portee 5-11. Conserve pour archive."
     },
     {
-      "jour": 27,
+      "jour": 28,
       "fichier": "j22-jamais--D.jpg",
       "type": "photo",
       "approved": false,
@@ -304,7 +321,7 @@
       "note": "Ligne editoriale abandonnee : portee 5-11. Conserve pour archive."
     },
     {
-      "jour": 28,
+      "jour": 29,
       "fichier": "j23-erreur--D.jpg",
       "type": "photo",
       "approved": false,
@@ -314,7 +331,7 @@
       "note": "Ligne editoriale abandonnee : portee 5-11. Conserve pour archive."
     },
     {
-      "jour": 29,
+      "jour": 30,
       "fichier": "j27-concurrent--D.jpg",
       "type": "photo",
       "approved": false,
@@ -324,7 +341,7 @@
       "note": "Ligne editoriale abandonnee : portee 5-11. Conserve pour archive."
     },
     {
-      "jour": 30,
+      "jour": 31,
       "fichier": "j29-prix--D.jpg",
       "type": "photo",
       "approved": false,
