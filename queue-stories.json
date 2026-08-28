@@ -59,12 +59,14 @@
     {
       "fichier": "st-06-demo.jpg",
       "approved": true,
-      "publie": null
+      "publie": "2026-08-28T05:29:57Z",
+      "id": "18325386772279599"
     },
     {
       "fichier": "st-07-test.jpg",
       "approved": true,
-      "publie": null
+      "publie": "2026-08-28T05:30:05Z",
+      "id": "18192923977387016"
     },
     {
       "fichier": "st-08-metiers.jpg",
