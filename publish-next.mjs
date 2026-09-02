@@ -13,9 +13,22 @@ const dry = process.argv.includes("--dry");
 const say = (m) => { const l = `${new Date().toISOString()}  ${m}`; console.log(l); if (!dry) appendFileSync(LOG, l + "\n"); };
 
 const q = JSON.parse(readFileSync(QP, "utf8"));
-const next = q.posts.find((p) => !p.publie && p.approved);
+// Rendez-vous hebdomadaires : un post peut reclamer un jour precis
+// ("lundi" pour la good news, "mercredi" pour le point info). Il attend son
+// jour ; les autres publications comblent le reste de la semaine.
+const JOURS = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
+const aujourdhui = JOURS[new Date().getDay()];
+const dispo = q.posts.filter((p) => !p.publie && p.approved);
+const next =
+  dispo.find((p) => p.jourSemaine === aujourdhui) ||
+  dispo.find((p) => !p.jourSemaine);
 
 if (!next) {
+  const bloques = dispo.filter((p) => p.jourSemaine).length;
+  if (bloques) {
+    say(`Rien pour ${aujourdhui} : ${bloques} post(s) attendent leur jour de rendez-vous.`);
+    process.exit(1);
+  }
   const attente = q.posts.filter((p) => !p.publie && !p.approved).length;
   say(attente
     ? `FILE VIDE — ${attente} post(s) desactive(s), aucun approuve. Le compte ne publie plus.`
