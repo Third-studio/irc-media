@@ -17,8 +17,12 @@ const next = q.posts.find((p) => !p.publie && p.approved);
 
 if (!next) {
   const attente = q.posts.filter((p) => !p.publie && !p.approved).length;
-  say(attente ? `Rien à publier : ${attente} post(s) en attente d'approbation.` : "File vide.");
-  process.exit(0);
+  say(attente
+    ? `FILE VIDE — ${attente} post(s) desactive(s), aucun approuve. Le compte ne publie plus.`
+    : "FILE VIDE — plus aucun contenu. Le compte ne publie plus.");
+  // Sortie en echec volontaire : GitHub notifie le proprietaire du depot.
+  // Un exit 0 laissait le compte muet sans que personne ne le sache.
+  process.exit(1);
 }
 if (!next.caption?.trim()) { say(`J${next.jour} : légende vide, publication annulée.`); process.exit(1); }
 
@@ -90,6 +94,11 @@ try {
   next.permalink = p.permalink || null;
   writeFileSync(QP, JSON.stringify(q, null, 2));
   say(`Publié → ${p.permalink || r.id}`);
+  // Alerte de reserve : prevenir AVANT la panne seche, pas apres.
+  const reste = q.posts.filter((x) => !x.publie && x.approved).length;
+  if (reste === 0) say("ALERTE : c'etait le dernier post approuve. Plus rien demain.");
+  else if (reste <= 3) say(`ALERTE : plus que ${reste} post(s) en file. Produire du contenu.`);
+  else say(`Reserve : ${reste} post(s) en file.`);
 } catch (e) {
   say(`ÉCHEC J${next.jour} : ${e.message}`);
   process.exit(1);

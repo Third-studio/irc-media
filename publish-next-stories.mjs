@@ -13,8 +13,8 @@ const q = JSON.parse(readFileSync(Q, "utf8"));
 const att = q.stories.filter((s) => s.approved && !s.publie).slice(0, N);
 
 if (!att.length) {
-  console.log("File des stories vide — rien à publier.");
-  process.exit(0);
+  console.log("FILE DES STORIES VIDE — plus aucune story a publier.");
+  process.exit(1);   // echec volontaire : GitHub notifie
 }
 
 let ok = 0;
@@ -36,4 +36,5 @@ for (const s of att) {
 writeFileSync(Q, JSON.stringify(q, null, 2) + "\n");
 const reste = q.stories.filter((s) => s.approved && !s.publie).length;
 console.log(`${ok} story(ies) publiee(s) — ${reste} en file.`);
+if (reste <= 2) console.log(`ALERTE : plus que ${reste} story(ies). Produire du contenu.`);
 if (!ok) process.exit(1);
