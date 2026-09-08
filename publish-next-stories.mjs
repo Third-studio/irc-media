@@ -10,9 +10,20 @@ const base = env.MEDIA_PUBLIC_BASE_URL.replace(/\/$/, "");
 
 const Q = "queue-stories.json";
 const q = JSON.parse(readFileSync(Q, "utf8"));
-const att = q.stories.filter((s) => s.approved && !s.publie).slice(0, N);
+// Une story peut reclamer un jour precis ("mercredi" pour accompagner le point
+// info). Elle attend son jour ; les autres comblent le reste de la semaine.
+const JOURS = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
+const aujourdhui = JOURS[new Date().getDay()];
+const dispo = q.stories.filter((s) => s.approved && !s.publie);
+const att = dispo.filter((s) => !s.jourSemaine || s.jourSemaine === aujourdhui).slice(0, N);
 
 if (!att.length) {
+  const bloquees = dispo.length;
+  if (bloquees) {
+    // Rien a publier aujourd'hui, mais la file n'est pas vide : ce n'est pas une alerte.
+    console.log(`Rien pour ${aujourdhui} : ${bloquees} story(ies) attendent leur jour.`);
+    process.exit(0);
+  }
   console.log("FILE DES STORIES VIDE — plus aucune story a publier.");
   process.exit(1);   // echec volontaire : GitHub notifie
 }

@@ -85,6 +85,18 @@
       "approved": true,
       "publie": "2026-08-29T23:26:38Z",
       "id": "17966720505158754"
+    },
+    {
+      "fichier": "st-15-marquage-regle.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "mercredi"
+    },
+    {
+      "fichier": "st-16-marquage-exception.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "mercredi"
     }
   ]
 }

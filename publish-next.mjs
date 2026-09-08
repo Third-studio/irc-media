@@ -26,8 +26,9 @@ const next =
 if (!next) {
   const bloques = dispo.filter((p) => p.jourSemaine).length;
   if (bloques) {
+    // La file n'est pas vide : un post attend simplement son jour. Pas une alerte.
     say(`Rien pour ${aujourdhui} : ${bloques} post(s) attendent leur jour de rendez-vous.`);
-    process.exit(1);
+    process.exit(0);
   }
   const attente = q.posts.filter((p) => !p.publie && !p.approved).length;
   say(attente
