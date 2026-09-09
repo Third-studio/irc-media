@@ -97,6 +97,90 @@
       "approved": true,
       "publie": null,
       "jourSemaine": "mercredi"
+    },
+    {
+      "fichier": "st-17-formation-obligation.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "jeudi"
+    },
+    {
+      "fichier": "st-18-formation-date.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "jeudi"
+    },
+    {
+      "fichier": "st-19-emotions-interdit.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "vendredi"
+    },
+    {
+      "fichier": "st-20-emotions-exception.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "vendredi"
+    },
+    {
+      "fichier": "st-21-facture-cest-fait.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "samedi"
+    },
+    {
+      "fichier": "st-22-facture-question.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "samedi"
+    },
+    {
+      "fichier": "st-23-coulisses-test.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "dimanche"
+    },
+    {
+      "fichier": "st-24-coulisses-surplace.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "dimanche"
+    },
+    {
+      "fichier": "st-25-goodnews-allegement.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "lundi"
+    },
+    {
+      "fichier": "st-26-goodnews-report.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "lundi"
+    },
+    {
+      "fichier": "st-27-charte-unepage.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "mardi"
+    },
+    {
+      "fichier": "st-28-charte-jamais.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "mardi"
+    },
+    {
+      "fichier": "st-29-cv-prevenir.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "mercredi"
+    },
+    {
+      "fichier": "st-30-cv-duree.jpg",
+      "approved": true,
+      "publie": null,
+      "jourSemaine": "mercredi"
     }
   ]
 }
