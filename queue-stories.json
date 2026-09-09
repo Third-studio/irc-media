@@ -124,12 +124,22 @@
     },
     {
       "fichier": "st-21-facture-cest-fait.jpg",
+      "approved": false,
+      "publie": null
+    },
+    {
+      "fichier": "st-22-facture-question.jpg",
+      "approved": false,
+      "publie": null
+    },
+    {
+      "fichier": "st-31-cinq-questions.jpg",
       "approved": true,
       "publie": null,
       "jourSemaine": "samedi"
     },
     {
-      "fichier": "st-22-facture-question.jpg",
+      "fichier": "st-32-reponse-floue.jpg",
       "approved": true,
       "publie": null,
       "jourSemaine": "samedi"
