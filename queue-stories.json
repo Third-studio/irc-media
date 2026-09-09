@@ -89,14 +89,16 @@
     {
       "fichier": "st-15-marquage-regle.jpg",
       "approved": true,
-      "publie": null,
-      "jourSemaine": "mercredi"
+      "publie": "2026-09-09T23:22:19Z",
+      "jourSemaine": "mercredi",
+      "id": "18133913206724333"
     },
     {
       "fichier": "st-16-marquage-exception.jpg",
       "approved": true,
-      "publie": null,
-      "jourSemaine": "mercredi"
+      "publie": "2026-09-09T23:22:31Z",
+      "jourSemaine": "mercredi",
+      "id": "18113882554965735"
     },
     {
       "fichier": "st-17-formation-obligation.jpg",
