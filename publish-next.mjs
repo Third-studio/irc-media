@@ -39,6 +39,12 @@ if (!next) {
   process.exit(1);
 }
 if (!next.caption?.trim()) { say(`J${next.jour} : légende vide, publication annulée.`); process.exit(1); }
+// Meta refuse au-dela de 2 200 caracteres : on echoue avant l'appel API, avec le compte exact.
+const MAX_CAPTION = 2200;
+if (next.caption.length > MAX_CAPTION) {
+  say(`J${next.jour} : légende trop longue (${next.caption.length}/${MAX_CAPTION}), publication annulée. Raccourcir dans queue.json.`);
+  process.exit(1);
+}
 
 say(`J${next.jour} — ${next.fichier}${dry ? "  [simulation]" : ""}`);
 if (dry) { console.log("\n" + next.caption.slice(0, 220) + "…\n"); process.exit(0); }
