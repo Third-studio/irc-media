@@ -16,8 +16,9 @@ const q = JSON.parse(readFileSync(QP, "utf8"));
 // Rendez-vous hebdomadaires : un post peut reclamer un jour precis
 // ("lundi" pour la good news, "mercredi" pour le point info). Il attend son
 // jour ; les autres publications comblent le reste de la semaine.
-const JOURS = ["dimanche", "lundi", "mardi", "mercredi", "jeudi", "vendredi", "samedi"];
-const aujourdhui = JOURS[new Date().getDay()];
+// Jour calcule en heure de Martinique : le runner GitHub est en UTC et bascule
+// au lendemain des 20 h locales, ce qui faisait sauter les posts du jeudi soir.
+const aujourdhui = new Date().toLocaleDateString("fr-FR", { weekday: "long", timeZone: "America/Martinique" });
 const dispo = q.posts.filter((p) => !p.publie && p.approved);
 const next =
   dispo.find((p) => p.jourSemaine === aujourdhui) ||
